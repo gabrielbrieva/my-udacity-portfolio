@@ -16,7 +16,7 @@ public class PortfolioActivity extends AppCompatActivity {
         setContentView(R.layout.activity_portfolio);
     }
 
-    public void socialButtonTap(View view)
+    public void onSocialButtonTap(View view)
     {
         String url = null;
 
@@ -42,7 +42,7 @@ public class PortfolioActivity extends AppCompatActivity {
         startActivity(browse);
     }
 
-    public void appPortfolioButtonTap(View view)
+    public void onAppPortfolioButtonTap(View view)
     {
         String toastText = "This button will lunch my %s app!";
         String appName = null;
