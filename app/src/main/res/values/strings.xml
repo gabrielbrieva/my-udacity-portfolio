@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">My App Portfolio</string>
-    <string name="action_settings">Settings</string>7
 
     <!-- my full name -->
     <string name="my_full_name">Gabriel Josue Brieva Alvarez</string>
