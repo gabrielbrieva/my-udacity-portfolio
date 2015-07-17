@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="toolbar">#ff00385e</color>
+    <color name="main_background">#ffbce5ff</color>
+    <color name="default_tint">#ffe1bb14</color>
+</resources>
