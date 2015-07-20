@@ -51,33 +51,21 @@
                 <!-- social contacts -->
 
                 <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/SocialButtonStyle"
                     android:id="@+id/ibGitHub"
-                    android:layout_gravity="center_horizontal"
                     android:src="@drawable/ic_github"
-                    android:padding="10dp"
-                    android:background="@drawable/social_button"
                     android:onClick="onSocialButtonTap" />
 
                 <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/SocialButtonStyle"
                     android:id="@+id/ibLinkedIn"
-                    android:layout_gravity="center_horizontal"
                     android:src="@drawable/ic_linkedin"
-                    android:padding="10dp"
-                    android:background="@drawable/social_button"
                     android:onClick="onSocialButtonTap" />
 
                 <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/SocialButtonStyle"
                     android:id="@+id/ibGooglePlus"
                     android:src="@drawable/ic_googleplus"
-                    android:adjustViewBounds="false"
-                    android:padding="10dp"
-                    android:background="@drawable/social_button"
                     android:onClick="onSocialButtonTap" />
 
             </LinearLayout>
@@ -89,46 +77,36 @@
     </LinearLayout>
 
     <Button
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
+        style="@style/AppButtonStyle"
         android:text="@string/spotify_streamer_app"
         android:id="@+id/bt_spotify"
-        android:layout_gravity="center_horizontal"
         android:drawableLeft="@drawable/ic_spotify"
         android:onClick="onAppPortfolioButtonTap" />
 
     <Button
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
+        style="@style/AppButtonStyle"
         android:text="@string/football_scores_app"
         android:id="@+id/bt_football_scores"
-        android:layout_gravity="center_horizontal"
         android:drawableLeft="@drawable/ic_soccer"
         android:onClick="onAppPortfolioButtonTap" />
 
     <Button
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
+        style="@style/AppButtonStyle"
         android:text="@string/library_app"
         android:id="@+id/bt_library"
-        android:layout_gravity="center_horizontal"
         android:drawableLeft="@drawable/ic_library"
         android:onClick="onAppPortfolioButtonTap" />
 
     <Button
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
+        style="@style/AppButtonStyle"
         android:text="@string/build_it_bigger_app"
         android:id="@+id/bt_build_it_bigger"
-        android:layout_gravity="center_horizontal"
         android:onClick="onAppPortfolioButtonTap" />
 
     <Button
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
+        style="@style/AppButtonStyle"
         android:text="@string/capstone_app"
         android:id="@+id/bt_capstone"
-        android:layout_gravity="center_horizontal"
         android:onClick="onAppPortfolioButtonTap"
         android:backgroundTint="@color/default_tint" />
 
